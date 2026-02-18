@@ -1,0 +1,11 @@
+.Rhistory
+.RData
+
+# datasets
+DataSet/*.csv
+
+# output plots
+plots/
+
+# ignore Rproj user files
+*.Rproj.user
