@@ -54,8 +54,6 @@ df$Time_of_Day[is.na(df$Time_of_Day)] <- get_mode(df$Time_of_Day)
 
 # to handle NA's by applying median function to get the median value to numeric column 
 df$Courier_Experience_yrs[is.na(df$Courier_Experience_yrs)] <- median(df$Courier_Experience_yrs, na.rm = TRUE)
- 
-#Alfateh
 
 # calculate and adding speed column
 df$Delivery_Speed <- c(as.numeric(df$Distance_km / (df$Delivery_Time_min/60)))
