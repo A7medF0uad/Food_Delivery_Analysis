@@ -1,6 +1,6 @@
 # Food Delivery Analysis
 
-This repository contains an R script and supporting data for analyzing food delivery times. The analysis covers data cleaning, feature engineering, exploratory visualization, clustering, decision‑tree modeling, and even an interactive Shiny app for exploration.
+The analysis covers data cleaning, feature engineering, exploratory visualization, clustering, decision‑tree modeling, and even an interactive Shiny app for exploration.
 
 ## Contents
 
